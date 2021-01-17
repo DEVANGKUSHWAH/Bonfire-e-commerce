@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>BONFIRE Assignment</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap3 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- Linked CSS -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                        <select id="country" name="country" class="form-control us">
+                        <option value="United States" style="background-image:url('usa.jpg');">USD</option>
+                        <option value="India" style="background-image:url('in.jpg');">INR</option>
+                        <option value="Spain" style="background-image:url('es.jpg');">ES</option>
+                    </select>   
+                </div>
+                <div class="col-xs-4">
+                    <h1 class="h1">BONFIRE</h1>
+                </div>
+                <div class="col-xs-4">
+                    <button type="button" class="btn btn-default ct">CART (0)</button>
+                </div>
+            </div>                
+        </div>
+
+	<!-- Navbar-->
+        <hr size="2px">
+        <nav class="navbar navbar-inverse">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li class="t1"><a href="#">HOME</a></li> 
+                <li class="dropdown t1">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">MEN<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">SUMMER WEAR</a></li>
+                    <li><a href="#">WINTER WEAR</a></li>
+                    <li><a href="#">WEDDING DRESS</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown t1">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">WOMEN<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">WESTERN WEAR</a></li>
+                    <li><a href="#">TRADITIONAL WEAR</a></li>
+                    <li><a href="#">SPORTS DRESS</a></li>
+                  </ul>
+                </li>
+                <li class="t1"><a href="#">LOOKBOOK</a></li>
+                <li class="t1"><a href="#">ABOUT</a></li>
+                <li class="t1"><a href="#">BLOG</a></li>
+              </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <button type="button" class="btn btn-link">
+                            <span class="glyphicon glyphicon-heart-empty he1"></span>
+                        </button>
+                    </li>
+                    <li><p class="hy">|</p></li>
+                    <li>
+                        <button type="button" class="btn btn-link">
+                            <span class="glyphicon glyphicon-search he1"></span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </nav>  
+        <hr size="2px">
+
+    <!-- Details -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="product-slider">
+                      <div id="carousel" class="carousel slide" data-interval="false">
+                        <div class="carousel-inner">
+                          <div class="item active"> <img src="img1.jpg"> </div>
+                          <div class="item"> <img src="img2.jpg"> </div>
+                          <div class="item"> <img src="img3.jpg"> </div>
+                          <div class="item"> <img src="img4.jpg"> </div>
+                        </div>
+                      </div>
+                      <div class="clearfix">
+                        <div id="thumbcarousel" class="carousel slide" data-interval="false">
+                          <div class="carousel-inner">
+                            <div class="item active">
+                              <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="img1.jpg"></div>
+                              <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="img2.jpg"></div>
+                              <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="img3.jpg"></div>
+                              <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="img4.jpg"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container-fluid">
+                        <p>< Back to <a href="#">Women</a></p>
+                        <h4 class="h2">Crepe Salwar Suit</h4>
+                        <p class="p1"><span class="glyphicon glyphicon-star"></span>
+                           <span class="glyphicon glyphicon-star"></span>
+                           <span class="glyphicon glyphicon-star"></span>
+                           <span class="glyphicon glyphicon-star"></span>
+                           <span class="glyphicon glyphicon-star-empty"></span>  32 Review(s) |
+                           <a href="#"><u>ADD A REVIEW</u></a>
+                        </p>
+                        <h1 class="h3">$499.99</h1>
+                        <p><b>Availability: <span class="p2">In stock</span></b></p>
+                        <p><b>Product Code: <span class="p2">#4657</span></b></p>
+                        <p><b>Tags: <span class="p2">Western, Fashion, Classic</span></b></p>
+                        <p class="p3">A salwar suit is a combination of tunic or Kameez and a pair of trousers or salwar, usually accompanied by a scarf or Dupatta. Salwar suits are available in a wide range of designs and are more tight-fitting and modern in design when compared to the traditional kameez.
+                        </p>
+                        <ul class="p4">
+                            <li class="p1">Type: Crepe Salwar Suit Material</li>
+                            <li class="p1">Package Contains:Top - Leon Creap | Bottom - Leon Creap | Dupatta - Leon Creap |
+                            </li>
+                            <li class="p1">Pattern: Not Printed</li>
+                            <li class="p1">Occasion : Festival,Casual & social occasional wear</li>
+                        </ul>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="size">
+                        <label>COLOR</label><br>
+                        <select class="color">
+                            <option>Select Color</option>
+                            <option>Black</option>
+                            <option>White</option>
+                            <option>Blue</option>
+                        </select>
+                        </div>
+                        <div class="size">
+                        <label>SIZE</label><br>
+                        <select class="color">
+                            <option>Select Size</option>
+                            <option>Small</option>
+                            <option>Medium</option>
+                            <option>Large</option>
+                        </select>
+                        </div>
+                        <div class="size">
+                        <label>QTY</label><br>
+                        <select class="color">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="container-fluid end">
+                        <a href="#">CLEAR SELECTION</a><br><br>
+                        <button class="btn cart">ADD TO CART</button>
+                        <button class="btn wish">ADD TO WISHLIST</button>
+                    </div>
+                </div>
+           </div>
+        </div>
+
+</body>
+</html>
